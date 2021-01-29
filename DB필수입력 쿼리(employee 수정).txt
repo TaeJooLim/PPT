@@ -1268,6 +1268,36 @@ emp_off_remain = 106,
 emp_off_use = 0,
 emp_regdate = now();
 
+INSERT INTO employee SET 
+emp_department = '900',
+emp_position = '01',
+emp_num ='210190028',
+emp_enter =  '2021-01-08',
+emp_name = '김철수',
+emp_birth = '1992-10-31',
+emp_password = '1234',
+emp_email = 'csk@blue.com', 
+emp_step = 1, 
+emp_off_total = 0,
+emp_off_remain = 0,
+emp_off_use = 0,
+emp_regdate = now();
+
+INSERT INTO employee SET 
+emp_department = '000',
+emp_position = '01',
+emp_num ='210190029',
+emp_enter =  '2021-01-08',
+emp_name = '김영희',
+emp_birth = '1991-10-31',
+emp_password = '1234',
+emp_email = 'yhk@blue.com', 
+emp_step = 1, 
+emp_off_total = 0,
+emp_off_remain = 0,
+emp_off_use = 0,
+emp_regdate = now();
+
 create table employee_detail (
 emp_company char(2) not null,
 emp_team char(2) not null,
